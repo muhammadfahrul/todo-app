@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +30,7 @@ public class UpdateActivity extends AppCompatActivity {
     private static final String TAG = UpdateActivity.class.getSimpleName();
 
     private TextInputEditText etTask;
+    private Switch switchStatus;
     private MaterialButton btnUpdate;
     private TodoService service;
     private TodoModel data;
@@ -60,7 +62,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String task = etTask.getText().toString();
-                String status = "false";
+                String status = String.valueOf(switchStatus.isChecked());
                 Log.e("task", task);
                 Log.e("status", status);
 
