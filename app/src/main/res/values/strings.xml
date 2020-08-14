@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="new_todo">New Todo</string>
+    <string name="search_todo">Search Todo</string>
+    <string name="todo_app">Todo App</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="monday_13_august_2020">Monday, 13 August 2020</string>
+    <string name="sarapan_dengan_makanan">Sarapan dengan makanan</string>
+    <string name="create">CREATE</string>
+    <string name="task">Task</string>
+    <string name="status">Status</string>
+</resources>
